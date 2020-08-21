@@ -2,7 +2,8 @@ import React from "react";
 
 // Convert to class based component
 
-const ApprovalCard = (props) => {
+class ApprovalCard extends React.ApprovalCard {
+  onClickHandler(props)
   return (
     <div className="ui card">
       <div className="content">{props.children}</div>

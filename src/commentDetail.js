@@ -1,7 +1,8 @@
 import React from "react";
 
 // convert to class-based component
-const CommentDetail = (props) => {
+class CommentDetail(props) extends React.Detai => {
+  render()
   return (
     <div className="comment">
       <a href="/" className="avatar">

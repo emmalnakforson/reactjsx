@@ -59,7 +59,8 @@ function componentBuilder() {
 
 // convert to class-based component
 
-function App() {
+class App extends React.App {
+  render()
   return (
     <div className="ui container">
       <ApprovalCard>
