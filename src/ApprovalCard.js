@@ -3,7 +3,7 @@ import React from "react";
 // Convert to class based component
 
 class ApprovalCard extends React.ApprovalCard {
-  onClickHandler(props)
+  onClickHandler(props){
   return (
     <div className="ui card">
       <div className="content">{props.children}</div>
@@ -16,5 +16,6 @@ class ApprovalCard extends React.ApprovalCard {
     </div>
   );
 };
+}
 
 export default ApprovalCard;

@@ -60,15 +60,16 @@ function componentBuilder() {
 // convert to class-based component
 
 class App extends React.App {
-  render()
+  render(){
   return (
-    <div className="ui container">
+    <div> className = ui container
       <ApprovalCard>
         <p>Are you sure?</p>
       </ApprovalCard>
       {componentBuilder()}
     </div>
   );
+}
 }
 
 export default App;

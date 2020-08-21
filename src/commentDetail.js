@@ -1,9 +1,12 @@
 import React from "react";
 
 // convert to class-based component
-class CommentDetail(props) extends React.Detai => {
-  render()
-  return (
+class CommentDetailx extends React.CommentDetail {
+  onCLickHAndler(props){
+  }
+  render() 
+  {
+   return (
     <div className="comment">
       <a href="/" className="avatar">
         <img alt="avatar" src={props.img} />
@@ -20,5 +23,5 @@ class CommentDetail(props) extends React.Detai => {
     </div>
   );
 };
-
+}
 export default CommentDetail;
